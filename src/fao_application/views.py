@@ -7,4 +7,5 @@ def accueil(request):
 def analyse(request):
     return render(request, 'fao/analyse.html')
 
-
+def echange(request):
+    return render(request, 'fao/echange.html')
