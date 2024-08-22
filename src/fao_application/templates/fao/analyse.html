@@ -1,0 +1,25 @@
+{% extends 'fao/layout.html' %}
+{% block content %}
+<div class="flex w-full mx-auto px-6 py-8">
+    <div class="flex flex-col w-full h-full text-gray-900 text-xl" style="margin-left: 19%;">
+        <label for="hs-select-label" class="block text-sm font-medium mb-2 dark:text-white">Label</label>
+        <select id="hs-select-label" class="py-3 px-4 pe-9 block w-full border-black-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none" style="border: 1px solid gray;">
+          <option selected="">Open this select menu</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+        </select>
+        <div class="flex flex-row mt-4 gap-2">
+            <div class="w-1/2 bg-gray-300">
+                <h1 class="mt-4">Capture de la page</h1>
+                <img src="https://storage.needpix.com/rsynced_images/document-872506_1280.jpg" alt="" class="p-4 h-[750px] w-[100%]">
+            </div>
+            <div class="w-1/2 bg-blue-300 p-4">
+                <h1 class="mt-4">Description de la page</h1>
+                <h1 class="mt-20">Proposition de solution de la page</h1>
+
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
